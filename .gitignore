@@ -3,6 +3,8 @@ application-local.yml
 tmp
 mcp-servers.json
 
+TestApiKey.java
+
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
