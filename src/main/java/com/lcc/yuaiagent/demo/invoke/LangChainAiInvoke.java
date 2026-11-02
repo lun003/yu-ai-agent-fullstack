@@ -10,7 +10,7 @@ public class LangChainAiInvoke {
                 .apiKey(TestApiKey.API_KEY)
                 .modelName("qwen-max")
                 .build();
-        String answer = qwenModel.chat("我是程序员鱼皮，这是编程导航 codefather.cn 的原创项目教程");
+        String answer = qwenModel.chat("我是程序员的原创项目");
         System.out.println(answer);
     }
 }
